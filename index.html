@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>microProjectC</title>
+    <style>
+        input::placeholder {
+        color: #888888;
+        font-family: 'Inter', sans-serif;
+        margin: auto;
+    }
+    </style>
+
 </head>
-<body>
+<body style="margin: 0px;">
     <div class="containerContent">
         <div class="content">
             <h1 class="heading">An inspiring design delivered to <br /> your inbox every morning </h1>
             <p class="description">Our team scouts the internet for the best designs,<br /> illustrations and art and delivers a truly inspiring,<br /> one every day to your inbox</p>
             <h4 class="headingSmall">Show me how it looks</h6>
-            <div class="formEmail">
-                <label for="email"></label>
-                <input class="emailBar" type="email" placeholder="Your e-mail address" 
-                id="email" required /> 
-                <button class="button" type="submit">Register Now</button>
-            </div>
-            <div class="content">
-                <p class="quoete">Free - No Spam - No Data Sharing</p>
-            </div>   
+            <form action="/" method="post">
+                <div class="formEmail"> 
+                    <label for="email"></label>
+                    <input class="emailBar" type="email" placeholder="Your e-mail address" 
+                    id="email" required /> 
+                    <button class="button" type="submit">Register Now</button>
+                </div> 
+            </form> 
+            <p class="quoete">Free - No Spam - No Data Sharing</p>
+
         </div>
+
    
         <div class="image">
             <img src="./mic p-image.png" alt="image">
